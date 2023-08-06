@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SARTHI</title>
+	<link rel="shortcut icon" href="sample.ico" type="image/x-icon">
+	<link rel="icon" href="sample.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background">
+        <img src="sample.ico" alt="Peacock Feather" class="peacock-feather">
+    </div>
+    
+    <header class="bg-light py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <img src="proj-sarthi.jpg" alt="Website Logo" width=100 height=50>
+                </div>
+                <div class="col-6 text-end">
+                    <a href="#about" class="btn btn-primary">About</a>
+                    <a href="#statistics" class="btn btn-primary">Statistics</a>
+                    <a href="#contact" class="btn btn-primary">Enquiry</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div id="lead-content">
+        <div class="home-image">
+            <img src="proj-sarthi.jpg" alt="Image" class="full-screen">
+        </div>
+	<div id="lead-overlay"></div>
+	<div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+    </div>
+    
+    <div id="about" class="content" bg-info>
+        <div class="dialog-box">
+            <p>Your random content here.</p>
+        </div>
+        <div class="dialog-box">
+            <p>Your second random content here.</p>
+        </div>
+        <div class="dialog-box">
+            <p>Your third random content here.</p>
+        </div>
+    </div>
+    
+    <div id="statistics" class="content">
+        <div class="dialog-box">
+            <p>Your statistics content here.</p>
+        </div>
+        <div class="dialog-box">
+            <p>Your second statistics content here.</p>
+        </div>
+        <div class="dialog-box">
+            <p>Your third statistics content here.</p>
+        </div>
+    </div>
+    
+    <div id="contact" class="container background-div" width=100%>
+	<h2 style=color:>Get in Touch</h2>
+        <form>
+            <div class="mb-3">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number:</label>
+                <input type="tel" class="form-control" id="phone" name="phone" required>
+            </div>
+            <div class="mb-3">
+                <label for="issue" class="form-label">Query:</label>
+                <textarea class="form-control" id="issue" name="issue" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <footer class="text-center py-3">
+        <p background-color: transparent>&copy; 2023 PROJECT SARTHI. All rights reserved.</p>
+        <div class="social-links mt-3">
+            <a href="https://www.facebook.com/" ><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com/" ><i class="bi bi-twitter"></i></a>
+            <a href="https://linkedin.com/"><i class="bi bi-linkedin"></i></a>
+	    <a class="page-footer__gotop js-anchor" href="#lead-content">Go to top</a>
+        </div>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
