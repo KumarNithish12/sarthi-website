@@ -33,10 +33,14 @@ body, html {
 
 .back-sarthi{    
     width: 100%;
-    min-height: 650px;
+    min-height: 730px;
     padding: 70px 0;
-    background: #323232 url(proj-sarthi.jpg) center 0 no-repeat;
-    background-attachment: fixed;
+	padding-top: 600px;
+    	padding-right: 0px;
+    	padding-bottom: 0px;
+   	padding-left: 700px;
+    background: #323232 url(images/proj-sarthi.jpg) center 0 no-repeat;
+    background-attachment: relative;
     -webkit-background-size: cover;
     background-size: cover;
     text-align: center;
@@ -117,7 +121,7 @@ form button {
 }
 
 .background-div {
-            background: url('contact.png') no-repeat center center;
+            background: url('images/contact.png') no-repeat center center;
             background-size: cover;
             padding: 50px;
             position: relative;
